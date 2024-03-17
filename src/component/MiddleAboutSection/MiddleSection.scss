@@ -1,0 +1,127 @@
+.Middle_About_Section {
+  
+  margin: 0 auto;  
+  padding: 34px 0;
+
+  .Information {
+    max-width: 1280px; 
+    width: 100%;
+    display: flex;  
+    gap: 20px;   
+    padding: 0 10px;
+  
+    div{
+      width: 100%; 
+    
+    }
+  }
+
+  .Information_Image {
+    max-width: 6 0%; 
+   
+    background-size: cover;
+    img {
+      display: block;
+      max-width: 100%;
+      object-fit: cover;
+      // min-width: 50%;
+      
+    
+    }
+  }
+
+  .information_data {
+    // flex:0 0 50%;
+    max-width: 50%;
+    // margin-top: 5px;
+    // margin-bottom: 15px;
+    padding: 10px 0px;
+      .MiddleSectionheading{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+
+    h3 {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 0 0 15px;
+      // line-height: 40px;
+      // letter-spacing: 0em;
+      // text-align: left;
+      color: #007ab6;
+    }
+    .MiddleSectionhorizontalLine{
+      width: 150px;
+      height: 4px;
+      background-color: #007ab6;
+    }
+
+    p {
+      margin: 0 0 15px;
+      // margin-bottom: 30px;
+      font-family: Poppins;
+      font-size: 18px;
+      // font-weight: 400;
+      // line-height: 23px;
+      // letter-spacing: 0em;
+      // text-align: left;
+      color: #3c3c3c;
+    }
+  }
+}
+
+@media (max-width:1224px) {
+  .Middle_About_Section {
+    .Information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      // gap: 17px;
+      padding: 0;
+    }
+
+    .Information_Image {
+      max-width: 60%;
+       img{
+          display: block;
+          width: 100%;
+          object-fit: cover;
+       }
+    }
+
+    .information_data {
+      max-width: 50%;
+
+       .MiddleSectionheading{
+       
+       
+        h3{
+          font-size: 20px;
+        }
+    
+       } 
+    }
+
+   .btn{
+    
+   }
+  }
+}
+
+
+@media (max-width:760px){
+  .Information{
+  .information_data{
+
+    .MiddleSectionheading{
+      .MiddleSectionhorizontalLine{
+        display: none;
+      }
+    }
+  }
+}
+}

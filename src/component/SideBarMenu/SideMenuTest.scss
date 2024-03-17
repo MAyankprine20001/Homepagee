@@ -1,0 +1,116 @@
+
+
+.SideMenu_Header {
+    width: 40%;
+    min-width: 200px;
+    height: 100vh;
+    background: #064070; 
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    // transition: left 0.3s ease-in-out;
+    transition: top 0.5s, left 0.5s; 
+    .Logo-img {
+      padding: 6px 15px;
+      
+    }
+    .search-bar {
+      padding: 6px 8px;
+      display: flex;
+      align-items: center;
+      
+    }
+    .search-bar img {
+      max-height: 20px;
+      width: 12px;
+     
+    }
+    .search-bar Input {
+      margin-left: 8px; 
+    }
+    ul {
+      padding: 6px 15px;
+    
+      list-style: none; 
+    }
+    ul li {
+      margin-bottom: 10px; /* Adjust spacing between list items */
+      color: white;
+      
+    }
+    .locationDetails,
+     .phoneDetails {
+      display: flex;
+      padding: 6px 15px;
+    color: white;
+      align-items: center;
+  
+    }
+  
+    .locationDetails img,
+  .phoneDetails img {
+    max-height: 20px;
+    margin-right: 9px;
+  }
+  
+  }
+  
+  /* Add a class when the sidebar is hidden */
+  .hidden {
+    display: none;
+  }
+  
+  /* Show the logo when the sidebar is active */
+  // .SideMenu_Header .Logo-img {
+  //   padding: 6px 15px;
+  //   // display: ${isActive ? "none" : "block"};
+  // }
+  
+  // /* Style the search bar */
+  // .SideMenu_Header .search-bar {
+  //   padding: 6px 8px;
+  //   display: flex;
+  //   align-items: center;
+  //   // position: absolute;
+  // }
+  
+  // .SideMenu_Header .search-bar img {
+  //   max-height: 20px;
+  //   width: 12px;
+  //   // border: 2px solid red;
+  //   // position: relative;
+  // }
+  
+  // .SideMenu_Header .search-bar Input {
+  //   margin-left: 8px; /* Adjust margin as needed */
+  // }
+  
+  // /* Style the list items */
+  // .SideMenu_Header ul {
+  //   padding: 6px 15px;
+  
+  //   list-style: none; /* Fix the list style */
+  // }
+  
+  // .SideMenu_Header ul li {
+  //   margin-bottom: 10px; /* Adjust spacing between list items */
+  //   color: white;
+    
+  // }
+  
+  // /* Style the location and phone details */
+  // .SideMenu_Header .locationDetails,
+  // .SideMenu_Header .phoneDetails {
+  //   display: flex;
+  //   padding: 6px 15px;
+  // color: white;
+  //   align-items: center;
+  // }
+  
+  // .SideMenu_Header .locationDetails img,
+  // .SideMenu_Header .phoneDetails img {
+  //   max-height: 20px;
+  // }
+  
